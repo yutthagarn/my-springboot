@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String helloWorld(){
-        return "Hello World, I'm Java RockStar";
+        return "I'm Java RockStar";
     }
 
     public static void main(String[] args) {
